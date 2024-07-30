@@ -68,12 +68,12 @@ nav {
 /* MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    */
 
 .main {
-    height: 63em;
+    height: 45em;
     z-index: 2;
     position: relative;
 }
 
-.main-container{
+/* .main-container{
     display: flex;
 }
 
@@ -97,7 +97,7 @@ nav {
     background-color:rgb(162, 107, 199);
     margin-right: 20px;
 
-}
+} */
 
 
 /* FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   */
@@ -105,6 +105,6 @@ nav {
 .container-footer {
     z-index: 2;
     position: relative;
-    height: 15.5em;
+    height: 10em;
     background-color: white;
 }
