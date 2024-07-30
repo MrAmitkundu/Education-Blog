@@ -13,7 +13,7 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: url(bg5.jpg);
+    background-image: url(bg4.jpg);
     filter: blur(4px);
     background-position: center;
     background-size: cover;
@@ -94,7 +94,7 @@ nav {
     width: 25em;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color:rgb(162, 107, 199);
     margin-right: 20px;
 
 }
