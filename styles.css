@@ -73,12 +73,12 @@ nav {
     position: relative;
 }
 
-/* .main-container{
+.main-container{
     display: flex;
 }
 
 
-.main-container .left-main{
+/* .main-container .left-main{
     width: 40%;
 }
 
@@ -105,6 +105,6 @@ nav {
 .container-footer {
     z-index: 2;
     position: relative;
-    height: 10em;
+    height: 10.7em;
     background-color: white;
 }
