@@ -89,9 +89,10 @@ nav {
 }
 
 .main-container .right-main .posts {
-    display: flex;
-    height: 25em;
+    display:flex;
+    height: 15em;
     width: 25em;
+    cursor: pointer;
     justify-content: center;
     align-items: center;
     background-color: rgb(162, 107, 199);
