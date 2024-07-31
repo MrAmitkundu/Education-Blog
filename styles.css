@@ -11,7 +11,7 @@ body {
 
 .background {
     position: absolute;
-    height: 100%;
+    height: 125%;
     width: 100%;
     background-image: url(bg6.jpg);
     filter: blur(4px);
@@ -111,10 +111,11 @@ nav {
     height: 10.7em;
     background-color:white;
 }
-
 .left-footer{
     color: blue;
     font-size: large;
     padding-left: 35px;
     padding-top: 35px;
 }
+
+        
