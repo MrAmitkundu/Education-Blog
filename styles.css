@@ -11,7 +11,7 @@ body {
 
 .background {
     position: absolute;
-    height: 100%;
+    height: 125%;
     width: 100%;
     background-image: url(bg6.jpg);
     filter: blur(4px);
@@ -108,5 +108,5 @@ nav {
     z-index: 2;
     position: relative;
     height: 10.7em;
-    background-color: white;
+    background-color:rgb(251, 29, 29);
 }
