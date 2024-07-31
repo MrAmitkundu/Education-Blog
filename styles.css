@@ -13,7 +13,7 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: url(bg4.jpg);
+    background-image: url(bg6.jpg);
     filter: blur(4px);
     background-position: center;
     background-size: cover;
@@ -73,31 +73,33 @@ nav {
     position: relative;
 }
 
-.main-container{
+.main-container {
     display: flex;
 }
 
 
-.main-container .left-main{
+.main-container .left-main {
     width: 40%;
 }
 
-.main-container .right-main{
+.main-container .right-main {
     width: 60%;
     display: flex;
     margin-top: 28%;
 }
 
-.main-container .right-main .posts{
+.main-container .right-main .posts {
     display: flex;
     height: 25em;
     width: 25em;
     justify-content: center;
     align-items: center;
-    background-color:rgb(162, 107, 199);
+    background-color: rgb(162, 107, 199);
     margin-right: 20px;
 
-} 
+}
+
+/* DEVELOPERS   DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  */
 
 
 /* FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   */
