@@ -11,7 +11,7 @@ body {
 
 .background {
     position: absolute;
-    height: 125%;
+    height: 100%;
     width: 100%;
     background-image: url(bg6.jpg);
     filter: blur(4px);
@@ -30,7 +30,8 @@ nav {
     padding-left: 80px;
     padding-right: 57px;
     align-items: center;
-    height: 4em;
+    /* height: 50px; */
+    height: 7vh;
     z-index: 2;
     position: relative;
 }
@@ -68,7 +69,7 @@ nav {
 /* MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    */
 
 .main {
-    height: 45em;
+    height: 71.9vh;
     z-index: 2;
     position: relative;
 }
@@ -80,18 +81,53 @@ nav {
 
 .main-container .left-main {
     width: 40%;
+    height: 71vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.main-container .left-main .left-sub-main{
+    color: white;
+    font-size: 4rem;
+    font-family: "Tilt Neon", sans-serif;
+}
+
+.main-container .left-main .left-sub-main .coloring1{
+    color: rgb(8, 235, 235);
+    /* padding-left: 10px; */
+}
+
+.main-container .left-main .left-sub-main .coloring2{
+    color: rgb(190, 8, 235);
+    /* padding-left: 10px; */
+}
+
+.main-container .left-main .left-sub-main .sizing{
+    color: white;
+    font-size: 2.5rem;
+}
+
+
 
 .main-container .right-main {
     width: 60%;
+    height: 71vh;
     display: flex;
-    margin-top: 28%;
+    justify-content: baseline;
+    align-items: end;
+}
+
+.main-container .right-main .right-sub-main{
+    display: flex;
+
+
 }
 
 .main-container .right-main .posts {
     display:flex;
-    height: 15em;
-    width: 25em;
+    height: 250px;
+    width: 225px;
     cursor: pointer;
     justify-content: center;
     align-items: center;
@@ -108,7 +144,8 @@ nav {
 .container-footer {
     z-index: 2;
     position: relative;
-    height: 10.7em;
+    /* height: 170px; */
+    height: 21vh;
     background-color:white;
 }
 .left-footer{
