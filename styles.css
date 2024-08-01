@@ -136,7 +136,7 @@ nav {
     display: inline-block;
     height: 250px;
     width: 225px;
-    cursor: pointer;
+    /* cursor: pointer; */
     /* justify-content: center;
     align-items: center; */
     background-color: rgb(255, 255, 255);
@@ -197,6 +197,7 @@ nav {
     padding: 6.5px;
     background-color: rgb(55, 167, 241);
     font-size: 0.7rem;
+    cursor: pointer;
 }
 
 /* DEVELOPERS   DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  */
