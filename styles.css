@@ -199,7 +199,7 @@ color: rgb(64, 24, 121);
     font-size: 20px;   
     padding-left: 35px;
     padding-top: 35px;
-    margin-left: 500px; 
+    margin-left: 300px; 
     font-family: "Concert One", sans-serif;
 }
 .right-footer ul li{
@@ -213,4 +213,24 @@ color: rgb(64, 24, 121);
 }
 .right-footer ul li a:hover{
     color: rgb(139, 10, 156);
+}
+.right-footer-div{
+    color: blue;
+    padding-left: 35px;
+    padding-top: 35px;
+    margin-left: 200px; 
+    font-family:"Concert One", sans-serif;
+    font-size: 20px;
+}
+.right-footer-div li{
+    list-style: none;
+}
+.right-footer-div li a{
+    text-decoration: none;
+    color: blue;
+    font-family:cursive;
+    font-size: medium; 
+}
+.right-footer-div li a:hover{
+    color:rgb(139, 10, 156);
 }
