@@ -171,8 +171,8 @@ nav {
     margin-left: 20px;
 }
 
-.btn :hover {
-color: rgb(143, 143, 241);
+.btn:hover {
+color: rgb(64, 24, 121);
 }
 
 /* FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   */
@@ -210,5 +210,7 @@ color: rgb(143, 143, 241);
     color: blue;
     font-family:cursive;
     font-size: medium;
-
+}
+.right-footer ul li a:hover{
+    color: rgb(139, 10, 156);
 }
