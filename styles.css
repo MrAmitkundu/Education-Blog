@@ -136,7 +136,7 @@ nav {
     display: inline-block;
     height: 250px;
     width: 225px;
-    cursor: pointer;
+    /* cursor: pointer; */
     /* justify-content: center;
     align-items: center; */
     background-color: rgb(255, 255, 255);
@@ -197,6 +197,7 @@ nav {
     padding: 6.5px;
     background-color: rgb(55, 167, 241);
     font-size: 0.7rem;
+    cursor: pointer;
 }
 
 /* DEVELOPERS   DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  */
@@ -251,35 +252,48 @@ nav {
 
 .sub-container-footer {
     display: flex;
+    justify-content: space-between;
 }
 
 .left-footer {
     color: blue;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 35px;
+    padding-left: 100px;
     padding-top: 35px;
 }
 
-.right-footer {
-    color: blue;
+.right-footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
 }
 
-.right-footer ul li {
+.top-links {
+    color: blue;
+    font-size: 20px;
+    /* padding-left: 35px; */
+    padding-top: 35px;
+    /* margin-left: 300px;
+    margin-left: 500px; */
+    font-family: "Concert One", sans-serif;
+}
+
+.top-links ul li {
     list-style: none;
 }
 
-.right-footer ul li a {
+.top-links ul li a {
     text-decoration: none;
     color: blue;
     font-family: cursive;
     font-size: medium;
 }
 
-.right-footer ul li a:hover {
+.top-links ul li a:hover {
     color: rgb(139, 10, 156);
 }
-.right-footer-div{
+.connect{
     color: blue;
     padding-left: 35px;
     padding-top: 35px;
@@ -287,15 +301,15 @@ nav {
     font-family:"Concert One", sans-serif;
     font-size: 20px;
 }
-.right-footer-div li{
+.connect li{
     list-style: none;
 }
-.right-footer-div li a{
+.connect li a{
     text-decoration: none;
     color: blue;
     font-family:cursive;
     font-size: medium; 
 }
-.right-footer-div li a:hover{
+.connect li a:hover{
     color:rgb(139, 10, 156);
 }
