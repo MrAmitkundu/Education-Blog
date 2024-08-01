@@ -240,6 +240,46 @@ nav {
     color: rgb(64, 24, 121);
 }
 
+/* READ MORE    READ MORE   READ MORE   READ MORE   READ MORE   READ MORE*/
+
+.readmore h3 {
+    font-family: "Tilt Neon", sans-serif;
+    color: rgb(190, 181, 189);
+    padding: 20px;
+    margin-left: 5px;
+}
+.name-color{
+    color: rgb(0, 183, 255);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+
+}
+/* Education Details    Education Details   Education Details   Education Details   Education Details   Education Details   Education Details   Education Details*/
+
+.Educationdetails table {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    width: 1300px;
+    height: 200px;
+}
+
+.Educationdetails tbody {
+    font-style: normal;
+    text-align: center;
+}
+
+.Educationdetails thead {
+    margin-top: 5px;
+    text-align: center;
+    font-style: normal;
+    color: white;
+    HEIGHT: 40PX;
+}
+
+
 /* FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   */
 
 .container-footer {
