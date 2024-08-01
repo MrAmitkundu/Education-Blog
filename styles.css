@@ -171,9 +171,8 @@ nav {
     margin-left: 20px;
 }
 
-#btn :hover {
-background-color: rgb(39, 12, 216);
-color: rgb(0, 0, 9);
+.btn :hover {
+color: rgb(143, 143, 241);
 }
 
 /* FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   */
