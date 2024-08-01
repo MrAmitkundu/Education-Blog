@@ -138,6 +138,43 @@ nav {
 
 /* DEVELOPERS   DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  */
 
+.developers-container h1{
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(203, 90, 232);
+}
+
+.developers-details h2{
+    font-family: "Tilt Neon", sans-serif; 
+    color: rgb(98, 105, 231);
+    padding: 15px;
+    margin-left: 8px;
+    text-decoration: underline;
+
+}
+
+.developers-details p{
+    font-family: "Concert One", sans-serif;
+    color: rgb(171, 176, 176);
+    margin-left: 20px;
+}
+.btn {
+    padding: 10px;
+    background-color: rgb(27, 103, 218);
+    color: white;
+    border: 2px solid rgb(228, 6, 248);
+    border-radius: 20px;
+    font-size: 9px;
+    /*font-weight: bold;*/
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#btn :hover {
+background-color: rgb(39, 12, 216);
+color: rgb(0, 0, 9);
+}
 
 /* FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   */
 
