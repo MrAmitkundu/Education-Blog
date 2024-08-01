@@ -149,7 +149,7 @@ nav {
     background-color:white;
 }
 .sub-container-footer{
-    /* display: flex; */
+     display: flex; 
 }
 .left-footer{
     color: blue;
@@ -159,6 +159,9 @@ nav {
 }
 .right-footer{
     color: blue;
-    font-size: large;
+    font-size: large;   
+    padding-left: 35px;
+    padding-top: 35px;
+    margin-left: 500px;
     
 }
