@@ -148,11 +148,17 @@ nav {
     height: 21vh;
     background-color:white;
 }
+.sub-container-footer{
+    /* display: flex; */
+}
 .left-footer{
     color: blue;
     font-size: large;
     padding-left: 35px;
     padding-top: 35px;
 }
-
-        
+.right-footer{
+    color: blue;
+    font-size: large;
+    
+}
