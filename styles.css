@@ -221,6 +221,7 @@ nav {
     color: rgb(171, 176, 176);
     margin-left: 20px;
 }
+/* BUTTON   BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON */
 
 .btn {
     padding: 10px;
@@ -229,7 +230,6 @@ nav {
     border: 2px solid rgb(228, 6, 248);
     border-radius: 20px;
     font-size: 9px;
-   /* font-weight: bold;*/
     font-size: 10px;
     cursor: pointer;
     margin-top: 10px;
@@ -427,6 +427,7 @@ nav {
 
 .left-footer {
     color: blue;
+<<<<<<< HEAD
     font-size: 18px;
     font-family:"Concert One", sans-serif;
     padding-left: 50px;
@@ -442,6 +443,14 @@ nav {
     font-size: large;
 }
 
+=======
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+    padding-top: 35px;
+}
+
+>>>>>>> 60dac3ed69d95e0a1c2a0c749a04f51b35980957
 .right-footer{
     display: flex;
     justify-content: space-evenly;
@@ -456,7 +465,6 @@ nav {
     /* margin-left: 300px;
     margin-left: 500px; */
     font-family: "Concert One", sans-serif;
-    margin-left:100px ;
 }
 
 .top-links ul li {
@@ -475,9 +483,15 @@ nav {
 }
 .connect{
     color: blue;
+<<<<<<< HEAD
     padding-left:35px;
     padding-top: 25px;
     /* margin-right: 400px;  */
+=======
+    padding-left: 35px;
+    padding-top: 35px;
+    margin-left: 200px; 
+>>>>>>> 60dac3ed69d95e0a1c2a0c749a04f51b35980957
     font-family:"Concert One", sans-serif;
     font-size: 20px;
 }
@@ -493,9 +507,12 @@ nav {
 .connect li a:hover{
     color:rgb(139, 10, 156);
 }
+<<<<<<< HEAD
 .address{
     color: blue;
     padding-top: 25px;
     font-size: 20px;
     font-family:"Concert One", sans-serif;
 }
+=======
+>>>>>>> 60dac3ed69d95e0a1c2a0c749a04f51b35980957
