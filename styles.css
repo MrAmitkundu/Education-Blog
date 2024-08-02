@@ -571,10 +571,21 @@ nav {
 .connect li a:hover {
     color: rgb(139, 10, 156);
 }
-
+.connect img{
+    height: 15px;
+    width: 15px;
+}
 .address{
     color: blue;
     padding-top: 25px;
     font-size: 20px;
     font-family:"Concert One", sans-serif;
 }
+.address li{
+    list-style: none;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: medium;
+}
+
+
