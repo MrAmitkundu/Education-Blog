@@ -221,6 +221,7 @@ nav {
     color: rgb(171, 176, 176);
     margin-left: 20px;
 }
+/* BUTTON   BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON */
 
 .btn {
     padding: 10px;
@@ -229,7 +230,6 @@ nav {
     border: 2px solid rgb(228, 6, 248);
     border-radius: 20px;
     font-size: 9px;
-   /* font-weight: bold;*/
     font-size: 10px;
     cursor: pointer;
     margin-top: 10px;
@@ -429,13 +429,8 @@ nav {
     color: blue;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 50px;
+    padding-left: 100px;
     padding-top: 35px;
-}
-
-.heartss{
-    color: red;
-    font-size: 25px;
 }
 
 .right-footer{
@@ -452,7 +447,6 @@ nav {
     /* margin-left: 300px;
     margin-left: 500px; */
     font-family: "Concert One", sans-serif;
-    margin-left:100px ;
 }
 
 .top-links ul li {
@@ -473,7 +467,7 @@ nav {
     color: blue;
     padding-left: 35px;
     padding-top: 35px;
-    /* margin-right: 400px;  */
+    margin-left: 200px; 
     font-family:"Concert One", sans-serif;
     font-size: 20px;
 }
@@ -488,10 +482,4 @@ nav {
 }
 .connect li a:hover{
     color:rgb(139, 10, 156);
-}
-.address{
-    color: blue;
-    padding-top: 35px;
-    font-size: 20px;
-    font-family:"Concert One", sans-serif;
 }
