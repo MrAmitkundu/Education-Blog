@@ -307,7 +307,7 @@ nav {
 }
 
 
-/* testing */
+/*COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    */
 
 .collapsible {
     border-radius: 10px;
@@ -333,7 +333,7 @@ nav {
     content: "";
     position: absolute;
     right: 40px;
-    top: 104px;
+    top: 109px;
     width: 24px;
     height: 24px;
     background: url(arrow.svg) no-repeat 0 0;
