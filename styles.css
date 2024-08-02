@@ -144,7 +144,7 @@ nav {
 
 }
 
-.right-main .posts .posts-content{
+.right-main .posts .posts-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -153,7 +153,7 @@ nav {
     color: black;
 }
 
-.posts .posts-content .posts-img{
+.posts .posts-content .posts-img {
     height: 140px;
     width: 225px;
     display: flex;
@@ -162,13 +162,13 @@ nav {
 
 }
 
-.posts .posts-content .posts-img img{
+.posts .posts-content .posts-img img {
     height: 130px;
     width: 215px;
     margin: 5px;
 }
 
-.posts .posts-content .posts-description{
+.posts .posts-content .posts-description {
     height: 70px;
     width: 220px;
     display: flex;
@@ -178,26 +178,27 @@ nav {
     font-size: 0.8rem;
     padding-top: 3px;
     padding-bottom: 3px;
-    
+
 }
 
-.posts .posts-content .posts-read-more{
+.posts .posts-content .posts-read-more {
     width: 225px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 5px;
+    padding-top: 3px;
     margin-bottom: 5px;
-    
+
 }
 
-.posts .posts-content .posts-read-more button{
-    border: 0px solid black;
+.posts .posts-content .posts-read-more button {
     border-radius: 15px;
     padding: 6.5px;
-    background-color: rgb(55, 167, 241);
     font-size: 0.7rem;
     cursor: pointer;
+    color: white;
+    background-color: rgb(27, 103, 218);
+    border: 1px solid rgb(228, 6, 248);
 }
 
 /* DEVELOPERS   DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  */
@@ -221,6 +222,7 @@ nav {
     color: rgb(171, 176, 176);
     margin-left: 20px;
 }
+
 /* BUTTON   BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON  BUTTON */
 
 .btn {
@@ -248,16 +250,19 @@ nav {
     padding: 20px;
     margin-left: 5px;
 }
-.name-color{
+
+.name-color {
     color: rgb(0, 183, 255);
     font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
 
 }
+
 /* Education Details    Education Details   Education Details   Education Details   Education Details   Education Details   Education Details   Education Details*/
 
 .Educationdetails table {
     margin-top: 80px;
+    margin-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
     border-color: rgb(255, 255, 255);
@@ -277,6 +282,51 @@ nav {
     font-style: normal;
     color: white;
     HEIGHT: 40PX;
+}
+
+
+/* testing */
+
+.collapsible {
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+    margin: 10px 10px;
+    color: black;
+}
+
+/* Hide the checkbox */
+.toggle {
+    display: none; /* Hide the checkbox */
+}
+
+.collapsible-header {
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    border-radius: 9px;
+}
+
+.collapsible-content {
+    margin-top: 5px;
+    display: none; /* Hidden by default */
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.collapsible-content-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Show content when the checkbox is checked */
+.toggle:checked + .collapsible-header + .collapsible-content {
+    display: block; /* Show the content */
 }
 
 /* CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   */
@@ -326,13 +376,14 @@ nav {
 
 .submit-contact {
     margin: 10px 84px
-
 }
 
 .submit-contact #submit-contact-input {
     height: 25px;
     border-radius: 10px;
-    border: 1px solid black;
+    color: white;
+    background-color: rgb(27, 103, 218);
+    border: 2px solid rgb(228, 6, 248);
     font-size: 18px;
     cursor: pointer;
 }
@@ -350,7 +401,7 @@ nav {
 
 .feedback-outer-box {
 
-    /* backdrop-filter: blur(10px);*/ 
+    /* backdrop-filter: blur(10px);*/
     display: inline-block;
     height: fit-content;
     /* margin-top: 250px; */
@@ -378,34 +429,36 @@ nav {
     margin-left: 10px;
 } */
 
-.rating-radio-button{
+.rating-radio-button {
     margin-left: 10px;
     margin-right: 3px;
     cursor: pointer;
 }
 
-.feedback-box{
+.feedback-box {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.feedback-box label{
+.feedback-box label {
     display: flex;
     justify-content: center;
 }
 
-#feedback{
+#feedback {
     border-radius: 5px;
     padding: 5px;
     border: 1px solid black;
 }
 
-#submit-feedback-input{
+#submit-feedback-input {
     width: 70px;
     height: 26px;
-    border: 1px solid black;
-    border-radius: 15px;
+    color: white;
+    background-color: rgb(27, 103, 218);
+    border: 2px solid rgb(228, 6, 248);
+    border-radius: 10px;
     font-size: 16px;
     cursor: pointer;
 }
@@ -433,7 +486,7 @@ nav {
     padding-top: 35px;
 }
 
-.right-footer{
+.right-footer {
     display: flex;
     justify-content: space-evenly;
     width: 80%;
@@ -463,23 +516,27 @@ nav {
 .top-links ul li a:hover {
     color: rgb(139, 10, 156);
 }
-.connect{
+
+.connect {
     color: blue;
     padding-left: 35px;
     padding-top: 35px;
-    margin-left: 200px; 
-    font-family:"Concert One", sans-serif;
+    margin-left: 200px;
+    font-family: "Concert One", sans-serif;
     font-size: 20px;
 }
-.connect li{
+
+.connect li {
     list-style: none;
 }
-.connect li a{
+
+.connect li a {
     text-decoration: none;
     color: blue;
-    font-family:cursive;
-    font-size: medium; 
+    font-family: cursive;
+    font-size: medium;
 }
-.connect li a:hover{
-    color:rgb(139, 10, 156);
+
+.connect li a:hover {
+    color: rgb(139, 10, 156);
 }
