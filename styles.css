@@ -302,11 +302,23 @@ nav {
 
 .collapsible-header {
     background-color: white;
-    padding: 10px;
+    padding: 8px;
     cursor: pointer;
     font-weight: bold;
     display: block;
     border-radius: 9px;
+    
+}
+
+.collapsible-header:after{
+    content: "";
+    position: absolute;
+    right: 40px;
+    top: 104px;
+    width: 24px;
+    height: 24px;
+    background: url(arrow.svg) no-repeat 0 0;
+    
 }
 
 .collapsible-content {
@@ -316,6 +328,8 @@ nav {
     border: 1px solid #ccc;
     color: white;
     border-radius: 10px;
+    transition: all 0.3s ease;
+    top: -100%;
 
 }
 
@@ -324,7 +338,9 @@ nav {
     justify-content: center;
     align-items: center;
 }
-
+.toggle:checked + .collapsible-header:after{
+    transform: rotate(90deg);
+}
 /* Show content when the checkbox is checked */
 .toggle:checked + .collapsible-header + .collapsible-content {
     display: block; /* Show the content */
