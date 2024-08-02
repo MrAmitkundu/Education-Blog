@@ -30,7 +30,6 @@ nav {
     padding-left: 80px;
     padding-right: 57px;
     align-items: center;
-    /* height: 50px; */
     height: 7vh;
     z-index: 2;
     position: relative;
@@ -95,12 +94,10 @@ nav {
 
 .main-container .left-main .left-sub-main .coloring1 {
     color: rgb(8, 235, 235);
-    /* padding-left: 10px; */
 }
 
 .main-container .left-main .left-sub-main .coloring2 {
     color: rgb(190, 8, 235);
-    /* padding-left: 10px; */
 }
 
 .main-container .left-main .left-sub-main .sizing {
@@ -114,7 +111,6 @@ nav {
     width: 60%;
     height: 71vh;
     display: flex;
-    /* justify-content: baseline; */
     align-items: end;
 }
 
@@ -123,26 +119,24 @@ nav {
     overflow-y: hidden;
     white-space: nowrap;
     scrollbar-width: none;
-    /* display: inline-block; */
     height: 250px;
 
 }
 
-
+.right-main-post-section{
+    width: 100%;
+}
 
 
 .main-container .right-main .posts {
-    /* display: flex; */
     display: inline-block;
     height: 250px;
     width: 225px;
-    /* cursor: pointer; */
-    /* justify-content: center;
-    align-items: center; */
     background-color: rgb(255, 255, 255);
     margin-right: 20px;
 
 }
+
 
 .right-main .posts .posts-content {
     display: flex;
@@ -200,6 +194,33 @@ nav {
     background-color: rgb(27, 103, 218);
     border: 1px solid rgb(228, 6, 248);
 }
+
+/*SCROLLBAR     SCROLLBAR     SCROLLBAR     SCROLLBAR     SCROLLBAR     SCROLLBAR     SCROLLBAR     SCROLLBAR     SCROLLBAR     SCROLLBAR     SCROLLBAR     SCROLLBAR     SCROLLBAR     SCROLLBAR     SCROLLBAR     SCROLLBAR     SCROLLBAR     SCROLLBAR     SCROLLBAR     */
+
+.custom-scrollbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 99%;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    height: 10px;
+    background: white;
+    overflow: hidden;
+    position: relative;
+    margin-left: 5px;
+}
+
+.scroll-thumb {
+    height: 100%;
+    width: 300px;
+    background: #b10a0a;
+    border-radius: 5px;
+    position: absolute;
+    cursor: pointer; 
+    left: 0; 
+}
+
 
 /* DEVELOPERS   DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  DEVELOPERS  */
 
@@ -289,15 +310,13 @@ nav {
 /* testing */
 
 .collapsible {
-    /* border: 1px solid #ccc; */
     border-radius: 10px;
     margin: 10px 10px;
     color: black;
 }
 
-/* Hide the checkbox */
 .toggle {
-    display: none; /* Hide the checkbox */
+    display: none; 
 }
 
 .collapsible-header {
@@ -323,7 +342,7 @@ nav {
 
 .collapsible-content {
     margin-top: 5px;
-    display: none; /* Hidden by default */
+    display: none;
     padding: 10px;
     border: 1px solid #ccc;
     color: white;
@@ -341,9 +360,9 @@ nav {
 .toggle:checked + .collapsible-header:after{
     transform: rotate(90deg);
 }
-/* Show content when the checkbox is checked */
+
 .toggle:checked + .collapsible-header + .collapsible-content {
-    display: block; /* Show the content */
+    display: block;
 }
 
 /* CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   */
@@ -356,17 +375,12 @@ nav {
     align-items: center;
 }
 
-.contact-outer-box {
-
-    /* backdrop-filter: blur(10px); */
+.contact-outer-box {  
     display: inline-block;
     height: fit-content;
-    /* margin-top: 250px; */
     padding: 50px 30px;
     border-radius: 20px;
     border: 2px solid rgb(196, 196, 196);
-    /* backdrop-filter: saturate(130%) blur(10px); */
-
 }
 
 .contact-outer-box h3 {
@@ -417,16 +431,11 @@ nav {
 }
 
 .feedback-outer-box {
-
-    /* backdrop-filter: blur(10px);*/
     display: inline-block;
     height: fit-content;
-    /* margin-top: 250px; */
     padding: 50px 30px;
     border-radius: 20px;
     border: 2px solid rgb(196, 196, 196);
-    /* backdrop-filter: saturate(130%) blur(10px);  */
-
 }
 
 .feedback-outer-box h3 {
@@ -442,9 +451,6 @@ nav {
     font-size: 20px
 }
 
-/* .rating-label{
-    margin-left: 10px;
-} */
 
 .rating-radio-button {
     margin-left: 10px;
@@ -485,7 +491,6 @@ nav {
 .container-footer {
     z-index: 2;
     position: relative;
-    /* height: 170px; */
     height: 21vh;
     background-color: white;
 }
@@ -522,10 +527,7 @@ nav {
 .top-links {
     color: blue;
     font-size: 20px;
-    /* padding-left: 35px; */
     padding-top: 25px;
-    /* margin-left: 300px;
-    margin-left: 500px; */
     font-family: "Concert One", sans-serif;
 }
 
@@ -552,7 +554,6 @@ nav {
     font-family: "Concert One", sans-serif;
     padding-left:35px;
     padding-top: 25px;
-    /* margin-right: 400px;  */ 
     font-family:"Concert One", sans-serif;
     font-size: 20px;
 }

@@ -52,12 +52,15 @@
                     <div class="left-sub-main-txt1 sizing">Here we Share</div>
                     <div class="left-sub-main-txt1 coloring2">Educations &</div>
                     <div class="left-sub-main-txt1 coloring2">Knowledges</div>
-                    <!-- <p>Education Blogs</p>
-                    <p>Here We Share Education & Knowledges </p> -->
                 </div>
             </div>
             <div class="right-main">
-                <div class="right-sub-main">
+                <div class="right-main-post-section">
+                    <div class="custom-scrollbar">
+                        <div class="scroll-thumb"></div>
+                    </div>
+                    <div class="right-sub-main">
+                    
                     <div class="posts">
                         <div class="posts-content">
                             <div class="posts-img">
@@ -145,6 +148,7 @@
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
     </div>
@@ -181,9 +185,9 @@
                     <div class="address">
                         <p>Address</p>
                         <ul>
-                        <li>Add:-Andal</li>
-                        <li>Dist:-Paschim Bardhman</li>
-                        <li>Pin:-713321</li>
+                            <li>Add:-Andal</li>
+                            <li>Dist:-Paschim Bardhman</li>
+                            <li>Pin:-713321</li>
                         </ul>
                     </div>
                 </div>
@@ -193,11 +197,24 @@
 
     <script>
         const scrollContainer = document.querySelector('.right-sub-main');
+        const scrollbar = document.querySelector('.custom-scrollbar');
+        const scrollThumb = document.querySelector('.scroll-thumb');
 
+        let thumbPosition = 0;
+        function updateThumbPosition() {
+            const scrollRatio = scrollContainer.scrollLeft / (scrollContainer.scrollWidth - scrollContainer.clientWidth);
+            thumbPosition = scrollRatio * (scrollbar.clientWidth - scrollThumb.clientWidth);
+            scrollThumb.style.left = thumbPosition + 'px';
+        }
         scrollContainer.addEventListener('wheel', (event) => {
-            event.preventDefault(); // Prevent the default vertical scroll
-            scrollContainer.scrollLeft += event.deltaY; // Scroll horizontally
+            event.preventDefault();
+            scrollContainer.scrollLeft += event.deltaY / 5; // Scroll horizontally
+            updateThumbPosition();
         });
+        updateThumbPosition();
+        scrollContainer.addEventListener('scroll', updateThumbPosition);
+
+
     </script>
 </body>
 
