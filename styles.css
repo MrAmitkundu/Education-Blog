@@ -555,7 +555,10 @@ nav {
 .connect li a:hover {
     color: rgb(139, 10, 156);
 }
-
+.connect img{
+    height: 15px;
+    width: 15px;
+}
 .address{
     color: blue;
     padding-top: 25px;
