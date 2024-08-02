@@ -427,15 +427,19 @@ nav {
 
 .left-footer {
     color: blue;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-family:"Concert One", sans-serif;
     padding-left: 50px;
-    padding-top: 35px;
+    padding-top: 25px;
 }
 
 .heartss{
     color: red;
     font-size: 25px;
+}
+.name-color{
+    color: rgb(91, 8, 169);
+    font-size: large;
 }
 
 .right-footer{
@@ -448,7 +452,7 @@ nav {
     color: blue;
     font-size: 20px;
     /* padding-left: 35px; */
-    padding-top: 35px;
+    padding-top: 25px;
     /* margin-left: 300px;
     margin-left: 500px; */
     font-family: "Concert One", sans-serif;
@@ -471,8 +475,8 @@ nav {
 }
 .connect{
     color: blue;
-    padding-left: 35px;
-    padding-top: 35px;
+    padding-left:35px;
+    padding-top: 25px;
     /* margin-right: 400px;  */
     font-family:"Concert One", sans-serif;
     font-size: 20px;
@@ -491,7 +495,7 @@ nav {
 }
 .address{
     color: blue;
-    padding-top: 35px;
+    padding-top: 25px;
     font-size: 20px;
     font-family:"Concert One", sans-serif;
 }
