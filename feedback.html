@@ -15,8 +15,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
 
-    <title>Developers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+
+    <title>Education Blog</title>
 </head>
+
 
 <body>
     <div class="background"></div>
@@ -37,40 +42,46 @@
     </div>
 
     <div class="main">
-        <div class="developers-container">
-            <h1>Developers Details</h1>
+        <div class="feedback main-all">
+            <div class="feedback-outer-box">
+                <h3>Feedback</h3>
+                <form action="/action.php">
+                    <div class="rating">
+                        <h5>Please give rating</h5>
+                        <label for="r1" class="rating-label">
+                            <input type="radio" value="1 Star" name="rating" class="rating-radio-button">1
+                        </label>
+                        <label for="r2" class="rating-label">
+                            <input type="radio" value="2 Star" name="rating" class="rating-radio-button">2
+                        </label>
+                        <label for="r3" class="rating-label">
+                            <input type="radio" value="3 Star" name="rating" class="rating-radio-button">3
+                        </label>
+                        <label for="r4" class="rating-label">
+                            <input type="radio" value="4 Star" name="rating" class="rating-radio-button">4
+                        </label>
+                        <label for="r5" class="rating-label">
+                            <input type="radio" value="5 Star" name="rating" class="rating-radio-button">5
+                        </label>
+                    </div>
+                </form>
 
-            <div class="developers-details">
-                <h2>Amit</h2>
-                <p>Hi, my name is Amit Kundu i am a passionate codder</p>
-                <div class="buttons">
-                    <a href="/Readmoreamit.html" target="_blank">
-                        <button class="btn">Read More</button></a>
-                </div>
+                <br><br>
+
+                <form action="/action.php">
+                    <div class="feedback-box">
+                        <textarea name="feedback" id="feedback"
+                            placeholder="Please Write Your valuable Feedback here..." cols="40" rows="10"></textarea>
+                        <br>
+                        <label for="submit">
+                            <input type="submit" value="submit" id="submit-feedback-input">
+                        </label>
+                    </div>
+                </form>
             </div>
-
-            <div class="developers-details">
-                <h2>Sukanya</h2>
-                <p>Hi, my name is Sukanya Dutta i am a passionate codder</p>
-                <div class="buttons">
-                    <a href="/Readmoresukanya.html" target="_blank">
-                        <button class="btn">Read More</button></a>
-                </div>
-            </div>
-
-            <div class="developers-details">
-                <h2>Souvik</h2>
-                <p>Hi, my name is Souvik Sadhu i am a passionate codder</p>
-                <div class="buttons">
-                    <a href="/Readmoresouvik.html
-                    " target="_blank">
-                        <button class="btn">Read More</button></a>
-                </div>
-            </div>
-
         </div>
     </div>
-    
+
     <div class="footer">
         <div class="container-footer">
             <div class="sub-container-footer">
@@ -105,7 +116,3 @@
             </div>
         </div>
     </div>
-    
-</body>
-
-</html>
