@@ -500,3 +500,10 @@ nav {
     font-size: 20px;
     font-family:"Concert One", sans-serif;
 }
+.address li{
+    list-style: none;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: medium;
+}
+
