@@ -282,31 +282,98 @@ nav {
 
 /* PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     */
 
-/* .profile-card{
-    height: 500px;
+.profile-card{
+    height: 40vh;
     width: 360px;
-    background-color: white;
+    /* background-color: white; */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 .profile-picture-box{
-    height: 40%;
+    height: 45%;
     width: 350px;
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5px;
 
 }
 
-.profile-picture-box .profile-picture-sub-box{
+.profile-picture-box .profile-picture-sub-box img{
     height: 190px;
     width: 190px;
     border-radius: 50%;
-    background-color: yellow;
+    margin-top: 15px;
+    border: 5px solid rgb(74, 55, 245);
 
+}
+
+.profile-name{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.profile-proffesion{
+    font-size: 1.2rem;
+    
+}
+
+.profile-social-media-box{
+    height: 15%;
+    width: 350px;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+/* .profile-social-media-box .profile-social-media-sub-box{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: cyan;
 } */
+
+.profile-social-media-box img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 0px;
+}
+
+.profile-connect-box{
+    height: 15%;
+    width: 350px;
+    margin-top: 5px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+/* .profile-connect-box .profile-connect-sub-box{
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: orangered;
+} */
+
+.profile-connect-box  button{
+    height: 45px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    background-color: rgb(236, 59, 112);
+    cursor: pointer;
+    color: white;
+}
+
+
 /* Education Details    Education Details   Education Details   Education Details   Education Details   Education Details   Education Details   Education Details*/
 
 .Educationdetails table {
@@ -336,7 +403,7 @@ nav {
 
 /*COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    */
 
-/* .collapsible {
+.collapsible {
     border-radius: 10px;
     margin: 10px 10px;
     color: black;
@@ -363,7 +430,7 @@ nav {
     display: flex;
     align-items: center;
     padding-left: 15px;
-} */
+}
 
 /* .collapsible-header label{
     text-align: center;
@@ -381,7 +448,7 @@ nav {
     
 } */
 
-/* .collapsible-content {
+.collapsible-content {
     margin-top: 5px;
     display: none;
     padding: 10px;
@@ -404,7 +471,7 @@ nav {
 
 .toggle:checked + .collapsible-header + .collapsible-content {
     display: block;
-} */
+}
 
 /* CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   */
 
