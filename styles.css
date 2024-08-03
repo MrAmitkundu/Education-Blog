@@ -214,7 +214,7 @@ nav {
 .scroll-thumb {
     height: 100%;
     width: 300px;
-    background: #b10a0a;
+    background: #a1999b;
     border-radius: 5px;
     position: absolute;
     cursor: pointer; 
@@ -310,7 +310,7 @@ nav {
     width: 190px;
     border-radius: 50%;
     margin-top: 15px;
-    border: 5px solid rgb(74, 55, 245);
+    border: 5px solid rgb(138, 43, 239);
 
 }
 
@@ -363,12 +363,13 @@ nav {
     background-color: orangered;
 } */
 
+
 .profile-connect-box  button{
     height: 45px;
     width: 150px;
     border-radius: 15px;
     font-size: 1.3rem;
-    background-color: rgb(236, 59, 112);
+    background-color: rgb(241, 82, 169);
     cursor: pointer;
     color: white;
 }
