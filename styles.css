@@ -280,6 +280,33 @@ nav {
 
 }
 
+/* PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     */
+
+/* .profile-card{
+    height: 500px;
+    width: 360px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-picture-box{
+    height: 40%;
+    width: 350px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile-picture-box .profile-picture-sub-box{
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    background-color: yellow;
+
+} */
 /* Education Details    Education Details   Education Details   Education Details   Education Details   Education Details   Education Details   Education Details*/
 
 .Educationdetails table {
@@ -309,15 +336,16 @@ nav {
 
 /*COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    COLAPSIBLE    */
 
-.collapsible {
+/* .collapsible {
     border-radius: 10px;
     margin: 10px 10px;
     color: black;
 }
 
-.toggle {
+.toggle{
     display: none; 
 }
+
 
 .collapsible-header {
     background-color: white;
@@ -326,10 +354,23 @@ nav {
     font-weight: bold;
     display: block;
     border-radius: 9px;
+    display: flex;
+    justify-content: space-between;
     
 }
 
-.collapsible-header:after{
+.header-name{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+} */
+
+/* .collapsible-header label{
+    text-align: center;
+} */
+
+
+/* .collapsible-header:after{
     content: "";
     position: absolute;
     right: 40px;
@@ -338,9 +379,9 @@ nav {
     height: 24px;
     background: url(arrow.svg) no-repeat 0 0;
     
-}
+} */
 
-.collapsible-content {
+/* .collapsible-content {
     margin-top: 5px;
     display: none;
     padding: 10px;
@@ -357,13 +398,13 @@ nav {
     justify-content: center;
     align-items: center;
 }
-.toggle:checked + .collapsible-header:after{
+.toggle:checked + .collapsible-header img{
     transform: rotate(90deg);
 }
 
 .toggle:checked + .collapsible-header + .collapsible-content {
     display: block;
-}
+} */
 
 /* CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   CONTACT US   */
 
