@@ -64,6 +64,14 @@ nav {
     font-size: 1.2rem;
 }
 
+.nav-toggle{
+    display: none;
+}
+
+.fa-solid{
+    font-size: 22px;
+}
+
 
 /* MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    MAIN    */
 
@@ -213,7 +221,7 @@ nav {
 
 .scroll-thumb {
     height: 100%;
-    width: 300px;
+    width: 25%;
     background: #a1999b;
     border-radius: 5px;
     position: absolute;
@@ -656,9 +664,6 @@ nav {
 
 .connect {
     color: blue;
-    padding-left: 35px;
-    padding-top: 35px;
-    font-family: "Concert One", sans-serif;
     padding-left:35px;
     padding-top: 25px;
     font-family:"Concert One", sans-serif;
@@ -713,5 +718,8 @@ nav {
 .privacy li a:hover{
     color: rgb(139, 10, 156);
 }
+
+
+
 
 
