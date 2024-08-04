@@ -332,14 +332,14 @@
     }
 
     .Educationdetails table {
-        width: 440px;
-        height: 66px;
+        width: 400px;
+        height: 60px;
         font-size: 13px;
     }
 
     /* FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   */
     .container-footer {
-        height: 45vh;
+        height: 90vh;
     }
 
     .sub-container-footer {
@@ -364,13 +364,85 @@
         padding-top: 35px;
     }
 
-    .right-footer {
-        width: 95%;
-        margin-top: 25px;
+    .right-footer{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .top-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .top-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .top-links ul li a {
+        font-size: 16px;
+    }
+
+    .connect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        font-size: 20px;
+    }
+
+    .connect ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .connect li a {
+        font-size: 16px;
     }
 
     .address {
-        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        font-size: 20px;
+    }
+
+    .address ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .address li {
+        font-size: 16px;
+    }
+
+    .privacy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+
+    }
+
+    .privacy ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .privacy li a {
+        font-size: 16px;
     }
 
 }
@@ -390,8 +462,8 @@
     }
 
     .Educationdetails table {
-        width: 391px;
-        height: 59px;
+        width: 350px;
+        height: 53px;
         font-size: 12px;
     }
 
