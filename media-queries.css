@@ -282,6 +282,10 @@
 
 @media screen and (max-width: 478px) {
 
+    .background {
+        height: 102vh;
+    }
+    
     /* HEADER   HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   **/
     nav {
         padding-left: 60px;
@@ -294,7 +298,8 @@
     }
 
     .main-container .left-main {
-        margin-top: 35px;
+        /* margin-top: 35px; */
+        margin-top: 0;
     }
 
     .main-container .left-main .left-sub-main {
