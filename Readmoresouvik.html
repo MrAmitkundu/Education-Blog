@@ -34,15 +34,15 @@
             <div class="left-nav">
                 <h2>EDUCATION BLOGS</h2>
             </div>
-            <div class="right-nav">
+            <div class="right-nav" id="right-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="developers.html">Devolpers</a></li>
+                    <li><a href="developers.html">Developers</a></li>
                     <li><a href="feedback.html">Feedback</a></li>
-                    <li><a href="contact-us.html">Conctact us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
                 </ul>
             </div>
-            <a href="#" class="nav-toggle">
+            <a href="#" class="nav-toggle" id="nav-toggle">
                 <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
             </a>
         </nav>
@@ -190,6 +190,14 @@
             </div>
         </div>
     </div>
+    <script>
+        const toggleButton = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('right-nav');
+
+        toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
 
 </body>
 

@@ -485,7 +485,7 @@ nav {
 
 .contact-us {
     color: white;
-    height: 71vh;
+    height: 99%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -540,7 +540,7 @@ nav {
 
 .feedback {
     color: white;
-    height: 71vh;
+    height: 99%;
     display: flex;
     justify-content: center;
     align-items: center;
