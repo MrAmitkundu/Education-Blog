@@ -295,7 +295,6 @@ nav {
     width: 290px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     color: white;
     border: 2px solid white;
