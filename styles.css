@@ -293,7 +293,6 @@ nav {
 .profile-card{
     height: 38vh;
     width: 290px;
-    /* background-color: white; */
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -485,7 +484,7 @@ nav {
 
 .contact-us {
     color: white;
-    height: 99%;
+    height: 71vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -540,7 +539,7 @@ nav {
 
 .feedback {
     color: white;
-    height: 99%;
+    height: 71vh;
     display: flex;
     justify-content: center;
     align-items: center;
