@@ -9,6 +9,18 @@
     }
 
     /* MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     */
+    .main {
+        height: 93vh;
+    }
+
+    .main-container .left-main {
+        height: 91vh;
+    }
+
+    .main-container .right-main {
+        height: 91vh;
+    }
+    
     .main-container .left-main .left-sub-main {
         font-size: 3rem;
     }
@@ -59,12 +71,21 @@
         height: 8px;
     }
 
+    .profile-card{
+        height: 48vh;
+        width: 280px;
+    }
+
     .Educationdetails table {
         width: 921px;
         height: 142px;
     }
 
     /* FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   */
+    .container-footer {
+        height: 25vh;
+    }
+    
     .left-footer {
         font-size: 17px;
     }
@@ -155,7 +176,7 @@
     .right-nav {
         position: absolute;
         background-color: rgb(43, 42, 42);
-        right: -100%;
+        left: -100%;
         top: 104%;
         width: 100%;
         height: 43vh;
@@ -166,7 +187,7 @@
     }
 
     .right-nav.active {
-        right: 0;
+        left: 0;
     }
 
     .right-nav ul{
@@ -204,6 +225,11 @@
         width: 100%;
         height: 40%;
     }
+
+    .profile-card{
+        height: 42vh;
+    }
+    
 
     .Educationdetails table {
         width: 707px;
@@ -256,6 +282,10 @@
 
 @media screen and (max-width: 478px) {
 
+    .background {
+        height: 102vh;
+    }
+
     /* HEADER   HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   **/
     nav {
         padding-left: 60px;
@@ -264,7 +294,7 @@
 
     /* MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     */
     .main {
-        height: 93vh;
+        height: 91vh;
     }
 
     .main-container .left-main {
@@ -280,7 +310,7 @@
     }
 
     .profile-card{
-        height: 40vh;
+        height: 78vw;
         width: 270px;
     }
 
@@ -302,14 +332,14 @@
     }
 
     .Educationdetails table {
-        width: 440px;
-        height: 66px;
+        width: 400px;
+        height: 60px;
         font-size: 13px;
     }
 
     /* FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   FOOTER   */
     .container-footer {
-        height: 45vh;
+        height: 90vh;
     }
 
     .sub-container-footer {
@@ -334,13 +364,85 @@
         padding-top: 35px;
     }
 
-    .right-footer {
-        width: 95%;
-        margin-top: 25px;
+    .right-footer{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .top-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .top-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .top-links ul li a {
+        font-size: 16px;
+    }
+
+    .connect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        font-size: 20px;
+    }
+
+    .connect ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .connect li a {
+        font-size: 16px;
     }
 
     .address {
-        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        font-size: 20px;
+    }
+
+    .address ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .address li {
+        font-size: 16px;
+    }
+
+    .privacy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+
+    }
+
+    .privacy ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .privacy li a {
+        font-size: 16px;
     }
 
 }
@@ -354,14 +456,19 @@
 
 
     /* MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     */
+    .profile-card{
+        height: 83vw;
+        width: 270px;
+    }
+    
     .custom-scrollbar {
         width: 97%;
         margin-left: 6px;
     }
 
     .Educationdetails table {
-        width: 391px;
-        height: 59px;
+        width: 350px;
+        height: 53px;
         font-size: 12px;
     }
 
