@@ -285,7 +285,7 @@
     .background {
         height: 102vh;
     }
-    
+
     /* HEADER   HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   **/
     nav {
         padding-left: 60px;
@@ -298,8 +298,7 @@
     }
 
     .main-container .left-main {
-        /* margin-top: 35px; */
-        margin-top: 0;
+        margin-top: 35px;
     }
 
     .main-container .left-main .left-sub-main {
