@@ -310,7 +310,7 @@
     }
 
     .profile-card{
-        height: 83vw;
+        height: 78vw;
         width: 270px;
     }
 
@@ -456,6 +456,11 @@
 
 
     /* MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     */
+    .profile-card{
+        height: 83vw;
+        width: 270px;
+    }
+    
     .custom-scrollbar {
         width: 97%;
         margin-left: 6px;
