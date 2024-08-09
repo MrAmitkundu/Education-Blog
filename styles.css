@@ -145,6 +145,10 @@ nav {
 
 }
 
+.main-container .right-main .posts:last-child {
+    margin-right: 2px;
+  }
+
 
 .right-main .posts .posts-content {
     display: flex;
@@ -291,8 +295,8 @@ nav {
 /* PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     PROFILE CARD     */
 
 .profile-card{
-    height: 38vh;
-    width: 290px;
+    height: 350px;
+    width: 285px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -338,13 +342,6 @@ nav {
     align-items: center;
 }
 
-/* .profile-social-media-box .profile-social-media-sub-box{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background-color: cyan;
-} */
-
 .profile-social-media-box img{
     height: 35px;
     width: 35px;
@@ -360,14 +357,6 @@ nav {
     justify-content:space-around;
     align-items: center;
 }
-
-/* .profile-connect-box .profile-connect-sub-box{
-    height: 50px;
-    width: 150px;
-    border-radius: 15px;
-    background-color: orangered;
-} */
-
 
 .profile-connect-box  button{
     height: 35px;
@@ -437,22 +426,6 @@ nav {
     align-items: center;
     padding-left: 15px;
 }
-
-/* .collapsible-header label{
-    text-align: center;
-} */
-
-
-/* .collapsible-header:after{
-    content: "";
-    position: absolute;
-    right: 40px;
-    top: 109px;
-    width: 24px;
-    height: 24px;
-    background: url(arrow.svg) no-repeat 0 0;
-    
-} */
 
 .collapsible-content {
     margin-top: 5px;
