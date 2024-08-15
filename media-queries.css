@@ -72,7 +72,7 @@
     }
 
     .profile-card{
-        height: 48vh;
+        height: 350px;
         width: 280px;
     }
 
@@ -227,7 +227,7 @@
     }
 
     .profile-card{
-        height: 42vh;
+        height: 350px;
     }
     
 
@@ -294,7 +294,7 @@
 
     /* MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     */
     .main {
-        height: 91vh;
+        height: 95vh;
     }
 
     .main-container .left-main {
@@ -310,7 +310,7 @@
     }
 
     .profile-card{
-        height: 78vw;
+        height: 350px;
         width: 270px;
     }
 
@@ -320,6 +320,11 @@
 
     .feedback {
         height: 93vh;
+    
+    }
+
+    .feedback-outer-box {
+        padding: 60px 10px;
     }
 
     .readmore h3 {
@@ -452,12 +457,19 @@
 
 
 @media screen and (max-width: 425px) {
+    .background {
+        height: 110vh;
+    }
     /* HEADER   HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   **/
-
+    
 
     /* MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     MAIN     */
+    .main {
+        height: 100vh;
+    }
+    
     .profile-card{
-        height: 83vw;
+        height: 350px;
         width: 270px;
     }
     
@@ -615,7 +627,14 @@
 
 
 @media screen and (max-width: 320px) {
+    .background {
+        height: 115vh;
+    }
     /* HEADER   HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   *HEADER   **/
+    .main {
+        height: 106vh;
+    }
+    
     nav {
         padding-left: 40px;
     }
